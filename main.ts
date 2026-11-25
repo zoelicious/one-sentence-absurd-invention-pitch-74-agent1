@@ -5,12 +5,12 @@ import { fileURLToPath } from "node:url";
 // Absolute path derived from this file's own URL (never a relative path).
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 
-// One sentence (177 chars): a bedroom object filing a formal complaint.
+// One sentence (165 chars): a bedroom object filing a formal complaint.
 // Annoyance: waking with a stiff neck because the pillow went flat overnight.
-// Invention: a pillow that files a formal grievance. Mechanism: it lodges
+// Invention: a pillow that lodges a formal grievance. Mechanism: it files
 // the complaint, then reinflates itself before the owner wakes up.
 const sentence =
-  "Meet the Complaint-Form Pillow: a cushion that files a formal grievance every time it goes flat overnight, then reinflates itself to full loft before you wake with a stiff neck.";
+  "Meet the Complaint-Form Pillow: a cushion that lodges a formal grievance every time it goes flat overnight, then reinflates itself before you wake with a stiff neck.";
 
 try {
   const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
